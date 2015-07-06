@@ -1,7 +1,7 @@
 {
   "name": "inkpader",
   "main": "./lib/inkpader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Author pads in Atom and send them straight to Inkpad.io",
   "repository": "https://github.com/foliveira/inkpader",
   "author": {
