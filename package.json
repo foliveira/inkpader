@@ -1,0 +1,36 @@
+{
+  "name": "inkpader",
+  "main": "./lib/inkpader",
+  "version": "1.0.0",
+  "description": "Author pads in Atom and send them straight to Inkpad.io",
+  "repository": "https://github.com/foliveira/inkpader",
+  "author": {
+    "name": "Fábio Oliveira",
+    "url": "http://blog.foliveira.me"
+  },
+  "keywords": [
+    "inkpad",
+    "markdown"
+  ],
+  "activationCommands": {
+    "atom-workspace": "inkpader:send"
+  },
+  "scripts": {
+    "codestyle": "jscs -p google lib/*.js"
+  },
+  "pre-commit": [
+    "codestyle"
+  ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "inkpad": "0.0.7",
+    "request": "^2.58.0"
+  },
+  "devDependencies": {
+    "jscs": "^1.13.1",
+    "pre-commit": "^1.0.10"
+  }
+}

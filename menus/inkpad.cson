@@ -1,0 +1,21 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Send to file Inkpad'
+      'command': 'inkpader:send'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Inkpad.io'
+      'submenu': [
+        {
+          'label': 'Send current file to Inkpad.io'
+          'command': 'inkpader:send'
+        }
+      ]
+    ]
+  }
+]
