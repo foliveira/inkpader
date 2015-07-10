@@ -1,3 +1,7 @@
+## 1.1.0
+* Allows sending a file to your private Inkpad account
+* Rewrote in ES2015
+
 ## 1.0.2
 * Better error handling
 
